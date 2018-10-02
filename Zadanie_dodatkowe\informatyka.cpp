@@ -12,7 +12,7 @@ int main()
 
     cout << "1- Liczba podzielna przez 3"                                       << endl;
     cout << "2- Liczba trzycyfrowa podzielna przez 17"                          << endl;
-    cout << "3- Czy u¿ytkownik jest pelnoletni"                                 << endl;
+    cout << "3- Czy uÂ¿ytkownik jest pelnoletni"                                 << endl;
     cout << "4- Czy ciarowka moze wjechac na most"                              << endl;
     cout << "5- Czy trzecia z podanych liczb miesci sie miezy pierwsza a druga" << endl;
     cout << "6- Czy liczba pierwsza p spelnia Male Twierdzenie Fermata"         << endl;
@@ -61,7 +61,7 @@ int main()
 
     case 7: cin >> p >> k >> s;
     if (  p,k,s>=0  && p<k<=s*3+p && k<=p+s*3 )  cout<<"TAK";
-    else if (k>s*3+p &&  p>0  ) cout << "NIE" << endl;                                  break;
+    else if (k>s*3+p &&  p>0  ) cout << "NIE" << endl;                      break;
 
 
 
