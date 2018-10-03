@@ -55,13 +55,21 @@ int main()
     case 6:
     cout << "\n" <<"Wpisz liczby pierwsze za p (np. 1,3,5,7)\n";
     cin >> a >> p;
-    if ((pow(a,p)-a) /p ) cout << "TAK";
-    else cout << "NIE" << endl;                                             break;
+    int w=1;
+
+     cout << "teraz nastapi potegowanie a\n";
+     for (int i=1; i<=p; i++)
+    {w= w *a;
+    cout << w << endl;
+    }
+    cout <<"dla kazdego spotegowanego a odejmujemy a\nsprawdzamy czy jest podzielna przez p\nodp brzmi:  ";
+    if ((w-a)%p==0) cout <<"TAK";
+        else cout << "NIE";                                                break;
 
 
     case 7: cin >> p >> k >> s;
-    if (  p,k,s>=0  && p<k<=s*3+p && k<=p+s*3 )  cout<<"TAK";
-    else if (k>s*3+p &&  p>0  ) cout << "NIE" << endl;                      break;
+    if ((k-p)<=3*s) cout<<"TAK";
+    else  cout << "NIE" << endl;                                           break;
 
 
 
