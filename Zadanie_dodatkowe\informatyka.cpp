@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     const int LIMIT = 20;
-    int x, a, b, c, p, k, s, wiek, waga;
+    int x, a, b, c, p, k, s, wiek, waga, i, w=1;
 
     cout << " Wybierz zadanie od 1 do 7"                                        << endl;
 
