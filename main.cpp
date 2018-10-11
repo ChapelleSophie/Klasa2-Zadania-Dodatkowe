@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int x,i,n,p;
+    int x,i,n,p,a,b;
 
     cout <<"Karta Pracy nr.3\t\n"<<endl;
 
@@ -23,7 +23,7 @@ int main()
 
 
        case 1:
-           for(int i=1; i<10; i++)
+           for( i=1; i<10; i++)
           cout <<(i*i*i)+3  << " ";
 break;
 
@@ -37,7 +37,7 @@ break;
        cin >> n;
 
        cout << "\ndzielniki liczby n:\n" << endl;
-       for (int p=1; p<1000; p++)
+       for ( p=1; p<1000; p++)
        if (n%p==0) cout <<  p<<" ";
 
 break;
@@ -45,7 +45,7 @@ break;
        case 4:
        int a,b,suma;
     cin >> a>>b;
-    for (int i=10; i<100; i++)
+    for ( i=10; i<100; i++)
 suma = a+b;
         cout << suma << endl;
 break;
@@ -56,7 +56,7 @@ break;
 break;            
             
       case 6:                           
-        int i,a=0,b=1;
+        
     for (i=0; i<10; i++)
     {
         b=a+b;
