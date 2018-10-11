@@ -43,7 +43,11 @@ break;
 break;
 
        case 4:
-      x
+       int a,b,suma;
+    cin >> a>>b;
+    for (int i=10; i<100; i++)
+suma = a+b;
+        cout << suma << endl;
 break;
 
        case 5:
