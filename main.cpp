@@ -43,10 +43,24 @@ break;
 break;
 
        case 4:
-
+      x
 break;
 
-
+       case 5:
+                                  
+        x
+break;            
+            
+      case 6:                           
+        int i,a=0,b=1;
+    for (i=0; i<10; i++)
+    {
+        b=a+b;
+        a=b-a;
+        cout << b << " " << endl;
+    }
+break;                            
+                                  
 }
 
 
