@@ -43,16 +43,22 @@ break;
 break;
 
        case 4:
-       int a,b,suma;
-    cin >> a>>b;
+       int a=0;
     for ( i=10; i<100; i++)
-suma = a+b;
-        cout << suma << endl;
+a = a+i;
+        cout << a << endl;
 break;
 
        case 5:
                                   
-        x
+         int n, k, s=0;
+    cin >> n;
+    for (int i=1 ; i<n ; i++)
+    {
+        cin >> k;
+        s+=k;
+    }
+    cout << (n*(n+1))/2 - s;
 break;            
             
       case 6:                           
