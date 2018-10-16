@@ -12,7 +12,7 @@ int main()
 
     cout << "1- Liczba podzielna przez 3"                                       << endl;
     cout << "2- Liczba trzycyfrowa podzielna przez 17"                          << endl;
-    cout << "3- Czy u¿ytkownik jest pelnoletni"                                 << endl;
+    cout << "3- Czy uzytkownik jest pelnoletni"                                 << endl;
     cout << "4- Czy ciarowka moze wjechac na most"                              << endl;
     cout << "5- Czy trzecia z podanych liczb miesci sie miezy pierwsza a druga" << endl;
     cout << "6- Czy liczba pierwsza p spelnia Male Twierdzenie Fermata"         << endl;
