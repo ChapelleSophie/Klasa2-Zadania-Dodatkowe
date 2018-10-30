@@ -4,7 +4,7 @@
 #include <cstdlib>
 using namespace std;
 
-int moja_funkcja()
+void moja_funkcja()
 {
     cout << "[1] - dzielnik"<<endl; //czy d jest dzielnikiem liczby n
     cout << "[2] - suma"<< endl; //suma cyfr danej liczby n
@@ -41,18 +41,19 @@ while (n!=0); return wynik;
 int pierwsza(int n)
 {
       if(n%2==0);
+    return n;
 }
 
-int druga (int n)
+int druga (int m)
 {
-    n=n*3;
+     return m=m*3;
 
 }
 
-int trzecia(int n)
+float trzecia(int p)
 {
-    n=n*0.4;
-   cout<< pierwsza(n);
+    p=p*0.4;
+  return p;
 }
 
 int main()
@@ -94,8 +95,8 @@ cout << "KARTA PRACY NR.4\n\t ____\n\t|MENU|\n\n";
                 int n;
                 cin>>n;
                 cout<<pierwsza(n)<<endl;
-               if (n%2==0) cout <<druga(); cout<<endl;
-               else if (n%2==1) cout<< trzecia(); cout<<endl;
+               if (pierwsza(n)%2==0) cout <<druga(pierwsza(n)); cout<<endl;
+               if (pierwsza(n)%2==1) cout<< trzecia(n); cout<<endl;
             }
 
 
